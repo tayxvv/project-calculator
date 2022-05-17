@@ -1,0 +1,92 @@
+:root{
+    --gray: #9d9b9e;
+    --orange: #fd950e;
+    --gray-dark: #302e31;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    background-color: black;
+    font-size: 40px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.main-app{
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction:row;
+    margin-top: 80px;
+    width: 100vw;
+}
+
+#resultado{
+    color: white;
+    width: 430px;
+    height: 50px;
+    font-size: 50px;
+}
+
+button{
+    margin: 7px;
+    color: white;
+    width: 10vw;
+    height: 10vh;
+    width:80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 0px;
+    background-color: var(--gray-dark);
+}
+
+#zero{
+    width: 5vw;
+    height: 5vh;
+    width:185px;
+    height: 100px;
+    border-radius: 60px;
+    padding-right: 70px;
+}
+
+#clean{
+    background-color: #9d9b9e;
+    color: black;
+}
+
+#menor{
+    background-color: #9d9b9e;
+    color: black;
+}
+
+#percentage{
+    background-color: #9d9b9e;
+    color: black;
+}
+
+#divisao{
+    background-color: #fd950e;
+    color: white;
+}
+
+#multiplicaçao{
+    background-color: #fd950e;
+    color: white;
+}
+
+#subtraçao{
+    background-color: #fd950e;
+    color: white;
+}
+
+#adiçao{
+    background-color: #fd950e;
+    color: white;
+}
+
+#equal{
+    background-color: #fd950e;
+    color: white;
+}
